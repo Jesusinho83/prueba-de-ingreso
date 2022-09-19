@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3360F5728D78A33005C3027 /* postsUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3360F5628D78A33005C3027 /* postsUserViewModel.swift */; };
+		A3360F5928D82CB5005C3027 /* listIsEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3360F5828D82CB5005C3027 /* listIsEmptyView.swift */; };
+		A3FE7B8128D3BCCF004A7877 /* preueba_CeibaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FE7B8028D3BCCF004A7877 /* preueba_CeibaApp.swift */; };
+		A3FE7B8328D3BCCF004A7877 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FE7B8228D3BCCF004A7877 /* ContentView.swift */; };
+		A3FE7B8528D3BCD1004A7877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FE7B8428D3BCD1004A7877 /* Assets.xcassets */; };
+		A3FE7B8828D3BCD1004A7877 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FE7B8728D3BCD1004A7877 /* Preview Assets.xcassets */; };
+		A3FE7B9428D3BEFC004A7877 /* menuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FE7B9328D3BEFC004A7877 /* menuView.swift */; };
+		A3FE7B9628D3DD3E004A7877 /* modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FE7B9528D3DD3E004A7877 /* modelo.swift */; };
+		A3FE7B9B28D3E595004A7877 /* modeloViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FE7B9A28D3E595004A7877 /* modeloViewModel.swift */; };
+		A3FE7BB128D69B77004A7877 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FE7BB028D69B77004A7877 /* Posts.swift */; };
+		A3FE7BB328D69BAA004A7877 /* postsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FE7BB228D69BAA004A7877 /* postsViewModel.swift */; };
+		A3FE7BB528D69C2C004A7877 /* postsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FE7BB428D69C2C004A7877 /* postsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3360F5628D78A33005C3027 /* postsUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postsUserViewModel.swift; sourceTree = "<group>"; };
+		A3360F5828D82CB5005C3027 /* listIsEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listIsEmptyView.swift; sourceTree = "<group>"; };
+		A3FE7B7D28D3BCCF004A7877 /* preueba Ceiba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "preueba Ceiba.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FE7B8028D3BCCF004A7877 /* preueba_CeibaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preueba_CeibaApp.swift; sourceTree = "<group>"; };
+		A3FE7B8228D3BCCF004A7877 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3FE7B8428D3BCD1004A7877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3FE7B8728D3BCD1004A7877 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3FE7B9328D3BEFC004A7877 /* menuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuView.swift; sourceTree = "<group>"; };
+		A3FE7B9528D3DD3E004A7877 /* modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelo.swift; sourceTree = "<group>"; };
+		A3FE7B9A28D3E595004A7877 /* modeloViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeloViewModel.swift; sourceTree = "<group>"; };
+		A3FE7BB028D69B77004A7877 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		A3FE7BB228D69BAA004A7877 /* postsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postsViewModel.swift; sourceTree = "<group>"; };
+		A3FE7BB428D69C2C004A7877 /* postsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3FE7B7A28D3BCCF004A7877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3FE7B7428D3BCCF004A7877 = {
+			isa = PBXGroup;
+			children = (
+				A3FE7B7F28D3BCCF004A7877 /* preueba Ceiba */,
+				A3FE7B7E28D3BCCF004A7877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FE7B7E28D3BCCF004A7877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FE7B7D28D3BCCF004A7877 /* preueba Ceiba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FE7B7F28D3BCCF004A7877 /* preueba Ceiba */ = {
+			isa = PBXGroup;
+			children = (
+				A3FE7B9728D3E538004A7877 /* VIew Model */,
+				A3FE7B8E28D3BDA0004A7877 /* Model */,
+				A3FE7B8F28D3BDB2004A7877 /* View */,
+				A3FE7B8428D3BCD1004A7877 /* Assets.xcassets */,
+				A3FE7B8228D3BCCF004A7877 /* ContentView.swift */,
+				A3FE7B8028D3BCCF004A7877 /* preueba_CeibaApp.swift */,
+				A3FE7B8628D3BCD1004A7877 /* Preview Content */,
+			);
+			path = "preueba Ceiba";
+			sourceTree = "<group>";
+		};
+		A3FE7B8628D3BCD1004A7877 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3FE7B8728D3BCD1004A7877 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3FE7B8E28D3BDA0004A7877 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3FE7B9528D3DD3E004A7877 /* modelo.swift */,
+				A3FE7BB028D69B77004A7877 /* Posts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3FE7B8F28D3BDB2004A7877 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3FE7B9328D3BEFC004A7877 /* menuView.swift */,
+				A3FE7BB428D69C2C004A7877 /* postsView.swift */,
+				A3360F5828D82CB5005C3027 /* listIsEmptyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3FE7B9728D3E538004A7877 /* VIew Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3FE7B9A28D3E595004A7877 /* modeloViewModel.swift */,
+				A3FE7BB228D69BAA004A7877 /* postsViewModel.swift */,
+				A3360F5628D78A33005C3027 /* postsUserViewModel.swift */,
+			);
+			path = "VIew Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3FE7B7C28D3BCCF004A7877 /* preueba Ceiba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FE7B8B28D3BCD1004A7877 /* Build configuration list for PBXNativeTarget "preueba Ceiba" */;
+			buildPhases = (
+				A3FE7B7928D3BCCF004A7877 /* Sources */,
+				A3FE7B7A28D3BCCF004A7877 /* Frameworks */,
+				A3FE7B7B28D3BCCF004A7877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "preueba Ceiba";
+			productName = "preueba Ceiba";
+			productReference = A3FE7B7D28D3BCCF004A7877 /* preueba Ceiba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3FE7B7528D3BCCF004A7877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A3FE7B7C28D3BCCF004A7877 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = A3FE7B7828D3BCCF004A7877 /* Build configuration list for PBXProject "preueba Ceiba" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3FE7B7428D3BCCF004A7877;
+			productRefGroup = A3FE7B7E28D3BCCF004A7877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FE7B7C28D3BCCF004A7877 /* preueba Ceiba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3FE7B7B28D3BCCF004A7877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FE7B8828D3BCD1004A7877 /* Preview Assets.xcassets in Resources */,
+				A3FE7B8528D3BCD1004A7877 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3FE7B7928D3BCCF004A7877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FE7B9428D3BEFC004A7877 /* menuView.swift in Sources */,
+				A3FE7BB128D69B77004A7877 /* Posts.swift in Sources */,
+				A3FE7BB328D69BAA004A7877 /* postsViewModel.swift in Sources */,
+				A3FE7B8328D3BCCF004A7877 /* ContentView.swift in Sources */,
+				A3360F5728D78A33005C3027 /* postsUserViewModel.swift in Sources */,
+				A3FE7B9B28D3E595004A7877 /* modeloViewModel.swift in Sources */,
+				A3360F5928D82CB5005C3027 /* listIsEmptyView.swift in Sources */,
+				A3FE7B8128D3BCCF004A7877 /* preueba_CeibaApp.swift in Sources */,
+				A3FE7BB528D69C2C004A7877 /* postsView.swift in Sources */,
+				A3FE7B9628D3DD3E004A7877 /* modelo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3FE7B8928D3BCD1004A7877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3FE7B8A28D3BCD1004A7877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FE7B8C28D3BCD1004A7877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"preueba Ceiba/Preview Content\"";
+				DEVELOPMENT_TEAM = D55Y8HMCBG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jesusgrimaldo.preueba-Ceiba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3FE7B8D28D3BCD1004A7877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"preueba Ceiba/Preview Content\"";
+				DEVELOPMENT_TEAM = D55Y8HMCBG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jesusgrimaldo.preueba-Ceiba";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3FE7B7828D3BCCF004A7877 /* Build configuration list for PBXProject "preueba Ceiba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FE7B8928D3BCD1004A7877 /* Debug */,
+				A3FE7B8A28D3BCD1004A7877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FE7B8B28D3BCD1004A7877 /* Build configuration list for PBXNativeTarget "preueba Ceiba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FE7B8C28D3BCD1004A7877 /* Debug */,
+				A3FE7B8D28D3BCD1004A7877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3FE7B7528D3BCCF004A7877 /* Project object */;
+}
